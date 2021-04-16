@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>Exercicios em HTML, CSS e JavaScript</header>
+    
+    <section id="proj1">
+        SORTEIO DE LETRAS
+        <div id="letra">A</div>
+        <button onclick="sortear()" id="sortear">SORTEAR</button>
+    </section>
+
+    <section id="proj2">
+        CALCULO PARA CHURRASCO
+        <input id="adultos" type="number" name="adultos" placeholder="Quantidade de adultos">
+        <input id="criancas" type="number" name="criancas" placeholder="Quantidade de crianças">
+        <input id="horas" type="number" name="horas" placeholder="Duração em (h)">
+        <button onclick="calcularChurrasco()" id="calcular">CALCULAR</button>
+        <div id="resultadoChurras"></div>
+    </section>
+
+    <section id="proj3">
+        CALCULADORA DE IMC
+        <input id="altura" type="number" name="altura" placeholder="Digite sua altura (ex: 1.75)">
+        <input id="peso" type="number" name="peso" placeholder="Digite seu peso (ex: 80)">
+        <button onclick="calcularIMC()" id="calcularIMC">CALCULAR IMC</button>
+        <div id="resultadoIMC"></div>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
