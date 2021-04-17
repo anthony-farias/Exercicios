@@ -92,7 +92,7 @@ input{
     background-color: rgb(188, 247, 255);
     position: absolute;
     top: 55px;
-    left: 665px;
+    left: 615px;
     border-radius: 5px;
     padding-top: 10px;
     font-weight: bold;
@@ -105,7 +105,7 @@ input{
     font-size: 12px;
 }
 #proj4{
-    width: 250px;
+    width: 550px;
     height: 270px;
     background-color: rgb(188, 247, 255);
     position: absolute;
@@ -131,4 +131,76 @@ input{
 .valor1{
     width: 50%;
     position: relative;
+}
+#nomeAlu{
+    width: 50%;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    display: inline-block;
+}
+#nota1{
+    width: 50px;
+    position: absolute;
+    top: 80px;
+    left: 300px;
+    display: inline-block;
+}
+#nota2{
+    width: 50px;
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    display: inline-block;
+}
+#nota3{
+    width: 50px;
+    position: absolute;
+    top: 80px;
+    left: 420px;
+    display: inline-block;
+}
+#nota4{
+    width: 50px;
+    position: absolute;
+    top: 80px;
+    left: 480px;
+    display: inline-block;
+}
+#notaMinima{
+    width: 230px;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+    display: inline-block;
+}
+
+#materia{
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 180px;
+    display: inline-block;
+}
+#escolhaDi{
+    position: absolute;
+    top:52px;
+    left: 5px;
+    font-size: 14px;
+}
+#calcNotas{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 130px;
+    left: 180px;
+    font-weight: bold;
+}
+#resultNotas{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    top: 180px;
+    left: -80px;
+    font-weight: bold;
 }
